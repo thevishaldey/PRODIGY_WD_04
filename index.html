@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vishal Dey – Web Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i></div>
+<header><div class="wrap"><nav>
+<a class="logo" href="#home">Vishal Dey</a>
+<ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav></div></header>
+
+<main>
+<div class="wrap">
+<div class="hero" id="home">
+<div>
+<h1>I build web apps you can click, play with, and use.</h1>
+<p>I'm Vishal, a BCA student and web developer. I turn HTML, CSS and JavaScript into small, working products like a lap-tracking stopwatch, a game that talks back, and a live weather app.</p>
+<div class="btns"><a class="btn primary" href="#projects">See my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+<div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Python</span><span class="chip">C</span><span class="chip">SQL</span></div>
+</div>
+<div class="photo"><div class="frame">
+<img src="profile.jpg" alt="Portrait of Vishal Dey smiling, wearing a navy suit and striped tie">
+</div></div>
+</div>
+</div>
+
+<section id="about"><div class="wrap">
+<h2>About me</h2>
+<div class="about">
+<div>
+<p>I'm studying for a Bachelor of Computer Applications while building real projects on the side. I started with C, then moved to Python, SQL and the web, because I like seeing my code do something on screen right away.</p>
+<p>At Prodigy InfoTech I worked as a web developer intern and shipped three interactive apps, each live on the web. Along the way I learned to break a problem into small steps, test it, and fix what doesn't work.</p>
+<p>I'm looking for an entry-level IT role where I can contribute my technical and analytical skills and keep learning from a team. I speak English, Hindi and Bengali, and I'm based in Madhupur, Jharkhand, India.</p>
+</div>
+<div>
+<h3>Education and experience</h3><br>
+<ul class="timeline">
+<li><h3>Web Developer Intern</h3><small>Prodigy InfoTech</small>Built a stopwatch, a tic-tac-toe game and a weather app, and published each one online.</li>
+<li><h3>Bachelor of Computer Applications</h3><small>Madhupur Polytechnic · Jharkhand University of Technology · Oct 2024 – present</small></li>
+<li><h3>Higher Secondary (Class XII)</h3><small>CBSE · Mother's International Academy, Madhupur, Deoghar · 2023</small></li>
+</ul>
+</div>
+</div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<div class="tabs" role="group" aria-label="Filter skills">
+<button class="tab" aria-pressed="true" data-f="All">All</button><button class="tab" aria-pressed="false" data-f="Web">Web</button><button class="tab" aria-pressed="false" data-f="Languages">Languages</button><button class="tab" aria-pressed="false" data-f="Data">Data</button><button class="tab" aria-pressed="false" data-f="People">People</button>
+</div>
+<div class="skills" id="skillGrid"></div>
+
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="projects">
+<article class="proj"><span class="tag">Stopwatch</span><h3>Stopwatch App</h3><p>A stopwatch with start, pause, reset and lap tracking, built with plain JavaScript.</p><a href="https://thevishaldey.github.io/PRODIGY_WD_02/" target="_blank" rel="noopener">Open live app</a></article>
+<article class="proj"><span class="tag">Game</span><h3>Tic-Tac-Toe</h3><p>Play against a friend or an AI opponent. It detects wins and draws, and the computer can comment out loud.</p><a href="https://thevishaldey.github.io/PRODIGY_WD_03/" target="_blank" rel="noopener">Open live app</a></article>
+<article class="proj"><span class="tag">REST API</span><h3>Weather App</h3><p>Fetches real-time weather data from a REST API and shows it for the city you search.</p><a href="https://thevishaldey.github.io/PRODIGY_WD_05/" target="_blank" rel="noopener">Open live app</a></article>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+<h2>Let's work together</h2>
+<p>I'm open to entry-level IT and web development roles. Send me a message and I'll reply soon.</p>
+<p class="details">Email: <strong>dvishal.org@gmail.com</strong><br>Phone: <strong>+91 91553 49484</strong></p>
+<div class="btns">
+<a class="btn primary" href="https://mail.google.com/mail/?view=cm&amp;to=dvishal.org@gmail.com&amp;su=Hello%20Vishal" target="_blank" rel="noopener">Email me on Gmail</a>
+<button class="btn" type="button" data-copy="dvishal.org@gmail.com">Copy email</button>
+<button class="btn" type="button" data-copy="+91 91553 49484">Copy phone</button>
+<a class="btn" href="https://www.linkedin.com/in/vishal-dey-aa3362356" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+<p class="copied" id="copyMsg" role="status"></p>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Vishal Dey · Madhupur, Jharkhand, India</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
